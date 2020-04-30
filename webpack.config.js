@@ -17,7 +17,7 @@ module.exports = {
      contentBase: './public',
   },
   plugins: [
-    new CleanWebpackPlugin(),
+    // new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title: 'Development',
     }),
